@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="js/Slider.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Barra de Navegación -->
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="MEDIA/LogoACOES.png" alt="Logo">
+        </a>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li class="dropdown">
+                <a href="acerca.html">ACERCA DE NOSOTROS</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+                    <li><a href="ayuda.html">CÓMO AYUDAR</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="galeria.html">GALERÍA</a>
+                <ul class="dropdown-menu">
+
+                </ul>
+            </li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li class="dropdown">
+                <a href="contacto.html">CONTÁCTENOS</a>
+                <ul class="dropdown-menu">
+                    <li><a href="donaciones.html">DONACIONES</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- SLIDER -->
+    <section class="slider">
+        <section class="frametrack">
+            <section class="slide">
+                <picture>
+                    <source srcset="MEDIA/CarruselUno.jpg" media="(min-width:1024px)" />
+                    <source srcset="MEDIA/CarruselUno.jpg" media="(min-width:720px)" />
+                    <img src="MEDIA/CarruselUno.jpg" alt="Slide 1" />
+                </picture>
+
+            </section>
+            <section class="slide">
+                <picture>
+                    <source srcset="MEDIA/IMG2.jpg" media="(min-width:1024px)" />
+                    <source srcset="MEDIA/IMG2.jpg" media="(min-width:720px)" />
+                    <img src="MEDIA/IMG2.jpg" alt="Slide 2" />
+                </picture>
+
+            </section>
+            <section class="slide">
+                <picture>
+                    <source srcset="MEDIA/C3.jpg" media="(min-width:1024px)" />
+                    <source srcset="MEDIA/C3.jpg" media="(min-width:720px)" />
+                    <img src="MEDIA/C3.jpg" alt="Slide 3" />
+                </picture>
+
+            </section>
+        </section>
+
+
+
+    </section>
+    </div>
+
+    </section>
+
+    <section class="about-section">
+        <h2 class="section-title"> FUNDACIÓN ACOES HONDURAS </h2>
+        <div class="about-description">
+            <p>
+                La FUNDACIÓN ACOES HONDURAS, es una organización española que nace en 2020 con el objetivo canalizar y favorecer la corriente de solidaridad de las personas,
+                colaborar y sostener los proyectos ejecutados en Honduras por su organización homóloga en Tegucigalpa (ACOES Honduras) y prestar ayuda y soporte a las múltiples 
+                organizaciones, grupos y amigos, que apoyan esta misión.
+            </p>
+        </div>
+        
+        <section class="mission-vision-section">
+            <div class="card-container">
+                <!-- Tarjeta de la Misión -->
+
+                <div class="card">
+                    <h3>Misión</h3>
+                    <p>
+                        Promover y colaborar con iniciativas que tiendan a crear y desarrollar condiciones de vida que 
+                        favorezcan la paz, la justicia, los derechos, la solidaridad y el desarrollo integral del ser 
+                        humano en los sectores de población más desfavorecidos y marginados de Honduras y especialmente 
+                        en la infancia, la juventud y las personas en situación de discapacidad, priorizando la educación 
+                        como instrumento eficaz para el desarrollo.
+                    </p>
+                </div>
+                <!-- Tarjeta de la Visión -->
+                <div class="card">
+                    <h3>Visión</h3>
+                    <p>
+                        Ser una organización líder en la promoción de la paz, la justicia y los derechos humanos, impulsando 
+                        el desarrollo integral del ser humano en los sectores más desfavorecidos y marginados de Honduras. 
+                        Nos comprometemos a trabajar de manera colaborativa para crear condiciones de vida que favorezcan la 
+                        solidaridad y el bienestar, con un enfoque especial en la infancia, la juventud y las personas en 
+                        situación de discapacidad.
+                    </p>
+                </div>
+
+
+            </div>
+        </section>
+        <h2 class="section-title">Nuestros Principales Socios Estratégicos</h2>
+
+        <section class="socios">
+
+            <div class="socio">
+                <img src="MEDIA/unioneuropea.jpg" alt="Logo UE">
+                <h2>UNION EUROPEA</h2>
+
+            </div>
+            <div class="socio">
+                <img src="MEDIA/usaid.png" alt=" Logo Usaid">
+                <h2>USAID</h2>
+
+            </div>
+            
+            <div class="socio">
+                <img src="MEDIA/CEH.png" alt="Logo CEH">
+                <h2>Cooperacion Española</h2>
+            </div>
+
+        </section>
+        <section>
+            <!-- Sección de noticias destacadas -->
+            <section id="noticias-cdh">
+                <div class="titulo-seccion">
+                    <h2>Novedades ACOES</h2>
+                </div>
+                <div class="contenedor-noticias">
+                    <!-- Noticia 1 -->
+                    <article class="noticia">
+                        <div class="contenedor-imagen">
+                            <img src="MEDIA/NAVARRA-20.jpg" alt="Encuentro">
+                        </div>
+                        <h3>INSCRIPCIÓN ENCUENTRO ACOES 2025 PAMPLONA</h3>
+                        <p class="fecha">Fecha: 5 de Febrero de 2025</p>
+                        <p class="descripcion">La fundacion realizara un importate encuentro el mes de Febrero.</p>
+                    </article>
+                    <!-- Noticia 2 -->
+                    <article class="noticia">
+                        <div class="contenedor-imagen">
+                            <img src="MEDIA/marchaetniasACOES.jpg" alt="Marcha Etnias">
+                        </div>
+                        <h3>Sinergias, ADEY y Fabretto transforman vidas de más de 500 jóvenes en Tegucigalpa</h3>
+                        <p class="fecha">Fecha: 22 de Diciembre de 2024</p>
+                        <p class="descripcion">Esta colaboración ha permitido brindar atención individualizada y personalizada en seis espacios psicopedagógicos de los centros infantil y de desarrollo en la capital.</p>
+                    </article>
+                   
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 Fundacion ACOES Honduras| Derechos reservados.</p>
+            </footer>
+
+        </section>
+        <script src="js/cel.js"></script>
+</body>
+
+</html>
